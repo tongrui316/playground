@@ -1,3 +1,10 @@
+/**
+ * Refer to: https://blog.mgechev.com/2017/09/16/developing-simple-interpreter-transpiler-compiler-tutorial/
+ *
+ * Please compare official version with mine. Learn from it. Probably functional programming skills.
+ *
+ */
+
 const input = "mul 3 sub 2 sum 1 3 4";
 
 const lex = (str) => str.split(" ").filter((s) => s.length > 0);
